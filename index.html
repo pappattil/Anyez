@@ -3,15 +3,31 @@
 <head>
 <meta name="description" content="Anyez Fittnesz">
   <title>Anyez Fittnesz</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" />
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
+ 
+footer {
+  background-color:black;
+  color:white;
+  text-align: center;
+  display:table;
+  padding: 10px;
+  font-family: 'Arial', sans-serif;
+  font-size: .875rem;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height:5vh;
+  
+}
   .cover {
   background: url('https://i.imgur.com/P0KmDoN.jpg') no-repeat top;
   background-size:100%;
     background-color:grey;
-  height: 100vh;
+  height: 95vh;
   width:100%;
   color: hsla(0,0%,100%,.7);
   
@@ -87,7 +103,30 @@
 .show {
     display: block;
 }
- 
+
+
+.warper {
+  display: table-cell;
+
+  vertical-align: middle;
+}
+footer small {
+  color: white;
+  letter-spacing: .25rem;
+  margin-bottom: 0.25rem;
+  display: block;
+}
+nav a {
+  text-decoration: none;
+  color: grey;
+  margin: 0 .1rem;
+  display: inline-block;
+}
+nav a:hover {
+  color: pink;
+  transition: color .15s ease-in-out;
+}
+
   @media (min-width: 768px) {
 
   .cover {
@@ -105,6 +144,7 @@
 </style>
 </head>
 <body>
+  <main class="content">
 <div class="cover">
 <div class="navbar">
   <a class="log" href="#home"><i class="fas fa-home"></i> Anyez fittnesz</a>
@@ -143,5 +183,10 @@ window.onclick = function(e) {
 </script>
   
   </div>
+    </main>
+  <footer>
+  
+    <p><small>©2018, Minden jog fenntartva!</small> <nav> <a href="#">Felhasználási feltételek</a></nav> </p>
+</footer>
 </body>
 </html>
