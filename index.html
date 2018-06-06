@@ -12,8 +12,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   
 <style>
- 
-footer {
+  footer {
   background-color:black;
   color:white;
   text-align: center;
@@ -24,9 +23,7 @@ footer {
   /*position: absolute;
   bottom: 0;*/
   width: 100vw;
- 
-  
-}
+  }
   .cover {
   background: url('https://i.imgur.com/P0KmDoN.jpg') no-repeat top;
   background-size:cover;
@@ -34,66 +31,64 @@ footer {
   height: 100vh;
   width:100%;
   color: hsla(0,0%,100%,.7);
-  
-}
+  }
 /*  .icon{
     color: black;
   }*/
-.navbar {
+  .navbar {
   font-family: Arial, Helvetica, sans-serif;  
   /*overflow: hidden;
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;*/
-}
-
-.navbar a {
-    
+  }
+  .navbar a {
     font-size: 19px;
   text-align: center;
     /*padding: 20px 16px;
     color: black;
     text-align: right;
     text-decoration: none;*/
-}
- /* .log{
+  }
+
+  
+  /* .log{
     float: left;
   }
 
-.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
   text-shadow: 0px 0px 20px black;  
 
-}*/
+  }*/
 
-
-
-.warper {
+  .warper {
   display: table-cell;
 
   vertical-align: middle;
-}
-footer small {
+  }
+  footer small {
   color: white;
   letter-spacing: .25rem;
   margin-bottom: 0.25rem;
   display: block;
-}
-.ff a {
+  }
+  .ff a {
   text-decoration: none;
   color: grey;
   margin: 0 .1rem;
   display: inline-block;
-}
-.ff a:hover {
+  }
+  .ff a:hover {
   color: pink;
   transition: color .15s ease-in-out;
-}
-
- 
- 
+  }
+    
+  .pos{
+    float:right;
+  }
 </style>
 </head>
 <body>
-  <main class="content">
+ <main class="content">
 <div class="cover">
 <!--<div class="navbar">
   
@@ -124,7 +119,7 @@ footer small {
  -->
   <nav  class="navbar navbar-default" >
         <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="container">
+        <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
@@ -136,7 +131,7 @@ footer small {
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav pos">
                     <li> <a  href="#"><i class="fas fa-utensils icon"></i> Étrend</a></li>
                     <li> <a  href="#"><i class="fas fa-dumbbell icon"></i> Edzés</a></li>
                     <li> <a  href="#"><i class="fas fa-video icon"></i> Videók</a></li>
