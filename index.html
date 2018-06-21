@@ -10,114 +10,13 @@
 <script src="https://code.jquery.com/jquery.min.js"></script>
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  
-<style>
-  .cover {
-  background: url('https://i.imgur.com/P0KmDoN.jpg') no-repeat top;
-  background-size:cover;
-    background-color:white;
-  height: 100vh;
-  width:100%;
-  color: hsla(0,0%,100%,.7);
-  }
-/*  .icon{
-    color: black;
-  }*/
-  .navbar {
-  font-family: Arial, Helvetica, sans-serif;  
-  /*overflow: hidden;
-    background-color: white;
-    font-family: Arial, Helvetica, sans-serif;*/
-  }
-  .navbar a {
-    font-size: 19px;
-  text-align: center;
-    /*padding: 20px 16px;
-    color: black;
-    text-align: right;
-    text-decoration: none;*/
-  }
-
-  
-  /* .log{
-    float: left;
-  }
-
-  .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
-  text-shadow: 0px 0px 20px black;  
-
-  }*/
- footer {
-  background-color:rgb(66, 68, 78);
-  color:white;
-  text-align: center;
-  display:table;
-  padding: 10px;
-  font-family: 'Arial', sans-serif;
-  font-size: 1.5rem;
-  /*position: absolute;
-  bottom: 0;*/
-  width: 100vw;
-  }
-  .warper {
-  display: table-cell;
-
-  vertical-align: middle;
-  }
-  footer small {
-  color: white;
-  letter-spacing: .25rem;
-  margin-bottom: 0.25rem;
-  display: block;
-  }
-  .ff a {
-  text-decoration: none;
-  color: grey;
-  margin: 0 .1rem;
-  display: inline-block;
-  }
-  .ff a:hover {
-  color: pink;
-  transition: color .15s ease-in-out;
-  }
-  @media (min-width: 768px) {
-    .pos{
-      float:right;
-        }
-     }
-
-</style>
+  <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="index.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
- <main class="content">
-<div class="cover">
-<!--<div class="navbar">
-  
-      
-     <ul class="nav navbar-nav navbar-right">
-         <li> <a class="log" href="#home"><i class="fas fa-home"></i> Agnes-Zone</a></li>
-                    <li class="dropdown">
-                        <a href="#" data-toggle="dropdown" class="dropdown-toggle"><button class="dropbtn" onclick="myFunction()">
-      <i class="fa fa-bars" aria-hidden="true"></i>
-    </button> <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#">Settings</a></li>
-                        </ul>
-                    </li>
-                </ul>
-    
-    <div class="dropdown-content" id="myDropdown">
-      <a  href="#"><i class="fas fa-utensils icon"></i> Étrend</a>
-      <a  href="#"><i class="fas fa-dumbbell icon"></i> Edzés</a>
-      <a  href="#"><i class="fas fa-video icon"></i> Videók</a>
-      <a  href="#"><i class="fas fa-id-card-alt icon"></i> Rólam</a>
-      <a  href="#"><i class="fab fa-blogger icon"></i> Blog</a>
-    </div>
-  </div> 
- -->
+
+
   <nav  class="navbar navbar-default" >
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="container-fluid">
@@ -128,57 +27,54 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">yoursbody.com</a>
+                <a class="navbar-brand" href="http://yoursbody.com"><i class="fas fa-home icon"></i> YoursBody.com</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav pos">
-                    <li> <a  href="#"><i class="fas fa-utensils icon"></i> Étrend</a></li>
-                    <li> <a  href="#"><i class="fas fa-dumbbell icon"></i> Edzés</a></li>
-                    <li> <a  href="#"><i class="fas fa-video icon"></i> Videók</a></li>
-                    <li> <a  href="#"><i class="fas fa-id-card-alt icon"></i> Rólam</a></li>
-                    <li> <a  href="#"><i class="fab fa-blogger icon"></i> Blog</a></li>
-                  
-                    <!-- <li class="dropdown">
-                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Messages <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Inbox</a></li>
-                            <li><a href="#">Drafts</a></li>
-                            <li><a href="#">Sent Items</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#">Trash</a></li>
-                        </ul>
-                    </li> -->
-                  
+                    <li class="disabled"> <a  href="#"><i class="fas fa-utensils icon"></i> Étrend</a></li>
+                    <li class="disabled"> <a  href="#"><i class="fas fa-dumbbell icon"></i> Edzés</a></li>
+                    <li class="disabled"> <a  href="#"><i class="fas fa-video icon"></i> Videók</a></li>
+                    <li> <a  href="http://yoursbody.com/me.html"><i class="fas fa-id-card-alt icon"></i> Rólam</a></li>
+                    <li> <a  href="http://yoursbody.com/blog.html"><i class="fab fa-blogger icon"></i> Blog</a></li>
                 </ul>
-                <!--<ul class="nav navbar-nav navbar-right">
-                    <li class="dropdown">
-                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Admin <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#">Settings</a></li>
-                        </ul>
-                    </li>
-                </ul> -->
             </div><!-- /.navbar-collapse -->
         </div>
     </nav>
- 
-</div>
+   <div class="cover">
+
+  <div class="wrapper">
+  <div class="line">
+        <p class="headline">A Te tested, a Te felelősséged...</p>
+
+      </div></div></div>
+
     
-    </main>
-  
     <div class="container-fluid">
-    <div class="jumbotron">
-    <h1>Lorem ipsum dolor sit amet</h1>
-    <p>Sed ac hendrerit enim. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisi. Donec et ultricies sem. Aliquam erat volutpat. Praesent vel nulla vel tellus interdum molestie vel eget augue. Aenean pretium urna pretium pellentesque rutrum. Aliquam porttitor tortor in sollicitudin ultricies.</p>
+        <div>
+            <p><br/></p>
+        </div>
+        <div class="jumbotron well well lg">
+            <p style="color: darkgrey">YoursBody.com > Blog</p>
+            <h3><b>Motiváció újraértelmezése…</b></h3>
+    <p>A motiváció a legértékesebb eszközünk, amikor küzdünk az álmainkért. Legyen szó egészségről vagy fitneszről, vagy bármi másról. <a href="blog.html"><b> Olvasom tovább...</b></a></p>
+        </div>
+        
+    <div class="jumbotron well well lg">
+        <p style="color: darkgrey">YoursBody.com > Rólam</p>
+    <h3><b>Üdvözöllek! Teréki-Papp Ágnes vagyok.</b></h3>
+            <p>Nő, Feleség és két gyermekes Édesanya</p>
+            <p>Gyerekkorom óta az életem meghatározó része a sport.</p>
+            <p>Tornáztam, atlétizáltam, balettra is jártam és a 20-as éveimben még aerobik oktató oklevelet is szereztem és adtam is órákat egy ideig.</p>
+        <p>Megismerkedtem a jelenlegi férjemmel és a munka, a suli meg a párkapcsolat mellett a sport volt, amit a leginkább hanyagoltam. Aztán jöttek a gyerekek és minden megváltozott. A második gyermekem születése után nagyon elhagytam magam. Sem a sportban, sem más tevékenységben nem találtam meg Önmagam, úgy éreztem elvesztem. Visszatekintve úgy éltem, mint egy robot, a régi magabiztos nő, aki voltam eltűnt úgy, hogy észre sem vettem. Kezdtem depressziós lenni. Majd egy nap, rádöbbentem valamire. <b>Minimum 2x nagyobb nadrágot hordok, mint a férjem. </b><a href="me.html"><b> Olvasom tovább...</b></a></p>
     </div>
     </div>
   <footer>
-    <p><small>©2018, Minden jog fenntartva!</small></p> 
-    <nav class="ff"> <a href="#"> Felhasználási feltételek, </a> <a href="https://pappattil.github.io/namecard/"> Webmester, </a></nav>
-</footer>
+        <div class="foot-w">
+        <p><small>©2018, Minden jog fenntartva!</small></p> 
+        <nav class="ff"> <a href="#"> Felhasználási feltételek, </a> <a href="https://pappattil.github.io/namecard/"> Webmester, </a>
+        </nav>
+        </div>
+    </footer>
 </body>
 </html>
