@@ -1,2 +1,2 @@
-# Anyez
-Anyez fittnesz oldala
+# YoursBody.com 
+Teréki-Papp Ágnes fittnesz oldala
