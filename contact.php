@@ -16,31 +16,7 @@
 <link href="index.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <nav  class="navbar navbar-default" >
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="http://yoursbody.com"><i class="fas fa-home icon"></i> YoursBody.com</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav pos">
-                    <li> <a  href="http://yoursbody.com/etrend.html"><i class="fas fa-utensils icon"></i> Étrend</a></li>
-                    <li> <a  href="http://yoursbody.com/edz.html"><i class="fas fa-dumbbell icon"></i> Edzés</a></li>
-                    
-                    <li> <a  href="http://yoursbody.com/me.html"><i class="fas fa-id-card-alt icon"></i> Rólam</a></li>
-                    <li> <a  href="http://yoursbody.com/blog.html"><i class="fab fa-blogger icon"></i> Blog</a></li>
-                    <li> <a  href="http://yoursbody.com/contact.html"> <i class="fas fa-envelope icon"></i> Kapcsolat</a></li>
-                </ul>
-            </div><!-- /.navbar-collapse -->
-        </div>
-    </nav>
+    <?php include 'navbar.html'; ?>
     <div class="row">
          <div class="wrapper">
             <div class="line">
@@ -66,7 +42,7 @@
         </div>
         <div class="modal-body">
             <form method="POST" action="https://formspree.io/info@yoursbody.com" >
-              <input type="hidden" name="_next" value="contact2.html">
+              <input type="hidden" name="_next" value="contact2.php">
               <input type="hidden" name="_language" value="hu" />
               <input type="email" name="email" placeholder="E-mail címed">
               <p> <br></p>
@@ -88,12 +64,6 @@
         </div>
        
     </div>
-  <footer>
-        <div class="foot-w">
-            <p><small>©2018, Minden jog fenntartva!</small></p>
-        <nav class="ff"> <a href="#"> Felhasználási feltételek, </a> <a href="https://pappattil.github.io/namecard/"> Webmester, </a>
-        </nav>
-        </div>
-    </footer>
+ <?php include 'foot.php'; ?>
 </body>
 </html>
