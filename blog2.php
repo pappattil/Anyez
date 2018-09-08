@@ -48,7 +48,7 @@ Ahhoz hogy fogyjunk, nem feltétlen egy drasztikus, nagy lemondásokat megkövet
 <ul class="pager">
   <li><a href="blog1.php">Előző bejegyzés</a></li>
   <li><a href="blog.php">Blogmenü</a></li>
-  <!--<li><a href="blog3.php">Következő bejegyzés</a></li> -->
+  <li><a href="blog3.php">Következő bejegyzés</a></li> 
 </ul>
 <?php include 'foot.php'; ?>
 </body>

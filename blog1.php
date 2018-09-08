@@ -51,7 +51,7 @@ Tűzz ki egy nagyobb célt, de határozz meg magadnak kisebb célokat, amiket ha
        <p><b>3. Kövesd nyomon a haladást </b><br/>
 Gyakran előfordul, hogy a változások szabad szemmel számodra szinte észrevehetetlenek és a mérleg sem minden esetben mutatja a változást.
 Csinálj előtte utána fotókat, mérd magad és írd hetente, vagy két hetente a súlyod és a körméreteidet (derék, csípő, comb, bicepsz… stb.). </p>
-       <p><b>4. Ne edz egyedül </b><br/>
+       <p><b>4. Ne eddz egyedül </b><br/>
 Próbálj néha olyasvalakivel együtt edzeni, aki előrébb van, mint Te, akire felnézel. Ez lehet régi ismerős, vagy a teremben szerzett új barát. Ezáltal kiléphetsz a komfort zónádból és fejlődésre kényszeríted saját magad.
 Ne hasonlítsd magad hozzá, akard elérni, amit Ő elért.</p>
        <p><b>5. Határozd meg az edzéseid konkrét időpontját</b><br/>

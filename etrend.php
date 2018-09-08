@@ -57,7 +57,7 @@ Amikor előálltam neki az ötletemmel, miszerint el akarok indulni egy ilyen ve
        <p>Tervezd meg az étrended akár 2 hétre előre és csinálj hétvégén ennek megfelelően bevásárlást, legyenek kéznél az alapanyagok, ne kelljen boltba rohangálni. Ez is úgy működik, mint az edzés tervezés. Jobb előre tervezni, így kisebb az esélye annak, hogy félre eszel. </p>
        <p><strong style="color: red">D</strong><b>obozolj </b></p>
        <p>	Előre főzd meg az ebéded, akár 2 napra és dobozban vidd magaddal. Lehet, hogy először furcsán fognak rád nézni a környezetedben lévők, de sokkal egyszerűbb kivenni a dobozt a hűtőből, mint hazaérni a munkából fáradtan, majd nekilátni főzni főleg, ha többfélét is kell, mert mondjuk a család mást eszik. Tőlem ezt elfogadhatod!</p>
-       <p><strong style="color: red">K</strong><b>ezd kis lépésekkel</b></p>
+       <p><strong style="color: red">K</strong><b>ezdd kis lépésekkel</b></p>
        <p>Cseréld ki először a vacsorád valami szénhidrát mentesre. Mondjuk túró, vagy valamilyen húsféle zöldséggel. A legjobb ilyenkor a zöld színű nem puffasztó zöldség (PL: cukkíni, brokkoli). Aztán cseréld a reggelid és haladj így tovább. Körülbelül 3-4 nap alatt el kell jutni odáig, hogy teljes mértékben a meghatározott étrended alapján egyél. </p>
        <p><strong style="color: red">T</strong><b>udd, mit eszel meg</b></p>       
        <p>Magadnak készítsd el az ételeid. Minél kevésbé feldolgozott alapanyagokat vegyél.</p>

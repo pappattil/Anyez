@@ -5,12 +5,17 @@
 </head>
 <body>
    <?php include 'navbar.html'; ?>
-    <div class="cover">
-  <div class="wrapper">
+   <div class="cover">
+  <!-- 
+<div class="wrapper">
+      
   <div class="line">
         <p class="headline">A Te tested, a Te felelősséged...</p>
 
-</div></div></div>
+</div></div>  
+-->
+    </div>   
+    
     <div class="row">
       
         <div class="col-md-3">
@@ -54,5 +59,6 @@ Köszönöm, hogy itt vagy, érezd jól magad!<br/>
     </div>
 -->
  <?php include 'foot.php'; ?>
+
 </body>
 </html>
