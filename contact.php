@@ -17,7 +17,9 @@
                 <br/>
                 e-mail küldése: 
                 <a data-toggle="modal" data-target="#myModal"><i class="fa fa-envelope fa-lg" title="Küldj e-mailt!"></i></a> <br/><br/>
-                Instagram: <a href='https://www.instagram.com/yoursbody_official/' ><i class="fab fa-instagram fa-lg"></i></a>
+                Instagram: <a href='https://www.instagram.com/yoursbody_official/' ><i class="fab fa-instagram fa-lg"></i></a><br/><br/>
+                
+              Facebook: <a href='https://www.facebook.com/pg/yoursbodyofficial/reviews/?ref=page_internal' ><i class="fab fa-facebook fa-lg"></i></a>
                 </p>
                 
  <!-- Modal -->

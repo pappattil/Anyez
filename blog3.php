@@ -35,10 +35,9 @@
       </div> 
     </div>
 <ul class="pager">
-  <li><a href="blog2.php">Előző bejegyzés</a></li>
-  <li><a href="blog.php">Blogmenü</a></li>
-  <li><a href="blog4.php">Következő bejegyzés</a></li> 
-</ul>
+  <li><a href="https://www.yoursbody.com/blog/">Blogmenü</a></li>
+ </ul>
+
 <?php include 'foot.php'; ?>
 </body>
 </html>
