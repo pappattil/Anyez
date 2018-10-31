@@ -4,6 +4,11 @@
    <?php include 'head.html'; ?>
 </head>
 <body>
+    
+  
+
+    
+    
    <?php include 'navbar.html'; ?>
    <div class="cover">
   <!-- 
